@@ -11,7 +11,7 @@ setup(
     description="Python client library for the Hostex API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/example/hostex-python",
+    url="https://github.com/keithah/hostex-python",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -42,8 +42,8 @@ setup(
     },
     keywords="hostex api property management vacation rental",
     project_urls={
-        "Documentation": "https://github.com/example/hostex-python/tree/main/docs",
-        "Bug Reports": "https://github.com/example/hostex-python/issues",
-        "Source": "https://github.com/example/hostex-python",
+        "Documentation": "https://github.com/keithah/hostex-python/tree/main/docs",
+        "Bug Reports": "https://github.com/keithah/hostex-python/issues",
+        "Source": "https://github.com/keithah/hostex-python",
     },
 )
