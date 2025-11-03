@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    timeout-minutes: 8
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -48,6 +49,7 @@ jobs:
         fail_ci_if_error: false
 
   lint:
+    timeout-minutes: 8
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
